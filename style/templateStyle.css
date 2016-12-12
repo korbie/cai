@@ -1,0 +1,130 @@
+	body {
+		font-family: 'Muli', sans-serif;
+	}
+  
+	/*NAVBAR SECTION***********************/
+  
+    /* Remove the navbar's default margin-bottom and rounded borders */
+	.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+		border: null;
+    }
+
+	/*JUMBOTRON SECTION********************/
+	
+	.wrapper {
+		width: 100%;
+		margin: 50px 0 0 0;
+		/*display: inline-block;*/
+		position: relative;
+		border-style: double;
+		border-width: 3px 0 3px 0;
+		border-color: gray;
+	}
+		
+	.wrapper:after {
+		padding-top: 40.2%;
+		display: block;
+		content: '';
+	}
+	
+	.jumbotron-top{
+		text-align: center;
+	}
+	
+	.jumbotron-bottom{
+		text-align: center;
+	}
+	
+	.jumbotron {
+		background-image: url("/img/background_alt_small.jpg");
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		min-height: 300px;
+		border-style: double;
+		border-width: 3px 0 3px 0;
+		border-color: gray;
+	}
+	
+	.main-image {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background-image: url("/img/background_alt_small.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center;
+	}
+	 
+	.main-text{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: white;
+	}
+	
+	.black-box{
+		background: rgb(100, 100, 100); /* Fallback */
+		background: rgba(0, 0, 0, .40);
+		border-radius: 5px;
+		width: 65%;
+	}
+	
+	/*CATEGORIES SECTION************************************/
+	
+	.categories-container{
+		padding: 0 0 0 0;
+	}
+	
+	/*style thumbnail*/
+	.thumbnail{
+		padding: 0 0 0 0;
+		/*margin: 0 95px 10px 95px;*/
+		border-radius: 2px;
+		transition: box-shadow 0.2s;
+	}
+	
+	.thumbnail:hover {
+		box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	}
+	
+	.thumbnail img{
+		padding: 1px 1px 1px 1px;
+		border: solid 2px rgb(202,202,212);
+		margin-top: 2px;
+		margin-right: 10px;
+		margin-left: 10px;
+		height:150px;
+	}
+	
+	.thumbnail p {
+		margin: 10px 0 10px 0;
+		font-size: x-large;
+	}
+
+	.img-brand{
+		height: 100%;
+		float: left;
+		padding: 0 10px 0 0;
+	}
+	
+	/*FOOTER SECTION***************************************/
+	    
+    /* Add a gray background color and some padding to the footer */
+	footer {
+		background-color: #f2f2f2;
+		padding: 15px 0 15px 0;
+    }
+	
+	footer p {
+		margin: 0 0 0 0;
+	}

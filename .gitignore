@@ -1,0 +1,6 @@
+*.jpg
+
+*error_log*
+
+mustache.js
+

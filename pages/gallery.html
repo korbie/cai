@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Felt, Silk &amp; Ceramic | Hand-Made Apparel, Carpets, Home Decor &amp; Accessories | Kyrgyzstan | Central Asia | centralasiaimports.com</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../scripts/mustache.js"></script>
+	<script type="text/javascript" src="../scripts/templateControl.js"></script>
+	<script type="text/javascript" src="../scripts/emailForm.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/img/favicon/manifest.json">
+	<link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../style/templateStyle.css">
+	<link rel="stylesheet" type="text/css" href="../style/galleryStyle.css">
+ 
+</head>
+
+<body>
+	<div class="container" width="1000">	
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">
+				<img class="img-brand" src="/img/logo.png">
+				<span><strong>Central Asia Imports</strong></span>
+			</a>
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="../index.html">HOME</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#" data-toggle="modal" data-target="#emailModal">CONTACT</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+	<div tabindex="-1" class="modal fade" id="emailModal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" type="button" data-dismiss="modal">×</button>
+					<h3 class="modal-title">Contact us for more information about these products.</h3>
+				</div>
+				<div class="modal-body">
+					<div>
+						<div class="form-group row">
+							<label for="name" class="col-xs-2 col-form-label">Name</label>
+							<div class="col-xs-10">
+								<input class="form-control" type="text" value="" id="name">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="message" class="col-xs-2 col-form-label">Message</label>
+							<div class="col-xs-10">
+								<textarea class="form-control" rows="5" id="message"></textarea>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="email" class="col-xs-2 col-form-label">Email</label>
+							<div class="col-xs-10">
+								<input class="form-control" type="email" value="" id="email">
+								<span id="email-invalid"></span>
+							</div>
+						</div>
+						
+						<div class="form-group row">
+							<div class="col-xs-10">
+								<p>
+									<h3 id="message-delivered"></h3>
+								</p>
+							</div>
+						</div>
+							
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary" id="submit" name="submit" type="submit" value="Send">Send</button>
+					<button class="btn btn-default" id="close" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div tabindex="-1" class="modal fade" id="detailsModal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" type="button" data-dismiss="modal">×</button>
+					<h3 class="modal-title">Heading</h3>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8" id="photoHolder"></div>
+						<div class="col-md-4" id="textHolder">
+							<h2 class="text-description"><strong>Description</strong></h2>
+							<h2 class="text-description-text"></h2>
+							<h2 class="text-material"><strong>Material</strong></h2>
+							<h2 class="text-material-text"></h2>
+							<h2 class="text-technique"><strong>Technique</strong></h2>
+							<h2 class="text-technique-text"></h2>
+							<h2 class="text-color"><strong>Color</strong></h2>
+							<h2 class="text-color-text"></h2>
+							<h2 class="text-size"><strong>Size</strong></h2>
+							<h2 class="text-size-text"></h2>
+							<h2 class="text-price"><strong>Price</strong></h2>
+							<h2 class="text-price-text"></h2>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					
+					<button class="btn btn-default" data-dismiss="modal">Close</button>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="container">
+	  <div class="gallery">
+	  </div>
+	</div>
+	
+	<footer class="container-fluid text-center">
+	  <p>Copyright 2016 Central Asia Imports</p>
+	</footer>
+
+	</div>
+
+</body>
+</html>
+
