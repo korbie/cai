@@ -6,7 +6,7 @@ if (isset($_POST['email']) && isset($_POST['name']) &&isset($_POST['message'])) 
 	$name = $_POST['name'];
 	$message = $_POST['message'];
 
-	$to = 'tanya@centralasiaimports.com, mary@centralasiaimports.com, mattcorbin@gmail.com';
+	$to = 'tatiana@centralasiaimports.com, mary@centralasiaimports.com, mattcorbin@gmail.com';
 	$subject = 'Message from Website Contact Page';
 	
 	$additionalHeaders = array();

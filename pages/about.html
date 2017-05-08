@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="../scripts/mustache.js"></script>
 	<script type="text/javascript" src="../scripts/templateControl.js"></script>
 	<script type="text/javascript" src="../scripts/emailForm.js"></script>
+	<script type="text/javascript" src="../scripts/videoControl.js"></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
@@ -19,8 +20,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../style/templateStyle.css">
 	<link rel="stylesheet" type="text/css" href="../style/galleryStyle.css">
-	
-	 
+ 
 </head>
 
 <body>
@@ -42,7 +42,7 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 		  <ul class="nav navbar-nav navbar-right">
 			<li><a href="../index.html">HOME</a></li>
-			<li><a href="about.html">ABOUT</a></li>
+			<li class="active"><a href="#">ABOUT</a></li>
 			<li><a href="#" data-toggle="modal" data-target="#emailModal">CONTACT</a></li>
 		  </ul>
 		</div>
@@ -96,47 +96,74 @@
 		</div>
 	</div>
 	
-
-	<div tabindex="-1" class="modal fade" id="detailsModal" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button class="close" type="button" data-dismiss="modal">×</button>
-					<h3 class="modal-title">Heading</h3>
-				</div>
-				<div class="modal-body">
-					<div class="row">
-						<div class="col-md-8" id="photoHolder"></div>
-						<div class="col-md-4" id="textHolder">
-							<h2 class="text-description"><strong>Description</strong></h2>
-							<h2 class="text-description-text"></h2>
-							<h2 class="text-material"><strong>Material</strong></h2>
-							<h2 class="text-material-text"></h2>
-							<h2 class="text-technique"><strong>Technique</strong></h2>
-							<h2 class="text-technique-text"></h2>
-							<h2 class="text-color"><strong>Color</strong></h2>
-							<h2 class="text-color-text"></h2>
-							<h2 class="text-size"><strong>Size</strong></h2>
-							<h2 class="text-size-text"></h2>
-							<h2 class="text-price"><strong>Price</strong></h2>
-							<h2 class="text-price-text"></h2>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					
-					<button class="btn btn-default" data-dismiss="modal">Close</button>
-					
-				</div>
-			</div>
-		</div>
+	<div class="videos">
+	<br>
+		<video class="center" controls autoplay>
+		  <source src="../videos/slippers.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
+	<br>
 	</div>
-
 	
-	<div class="container">
-	  <div class="gallery">
-	  </div>
+	<div class="catalogs">
+		<br>
+		<h2><strong>Catalogs:</strong></h2>
+		<h2><strong>2017</strong></h2>
+		<ul class="list-inline">
+			<li>
+				<a target="_blank" href="../downloads/2017_On_The_Pulse_Of_Time.pdf"><img src="../img/catalogs/catalog_2017_On_The_Pulse_Of_Time.png"></a>
+			</li>
+			<li>
+				<a target="_blank" href="../downloads/2017_Simply_Magic.pdf"><img src="../img/catalogs/catalog_2017_Simply_Magic.png"></a>
+			</li>
+			<li>
+				<a target="_blank" href="../downloads/2017_The_Homies.pdf"><img src="../img/catalogs/catalog_2017_The_Homies.png"></a>
+			</li>
+		</ul>
+		<h2><strong>2016</strong></h2>
+		<ul class="list-inline">
+			<li>
+				<a target="_blank" href="../downloads/2016_Going_Wild.pdf"><img src="../img/catalogs/catalog_2016_Going_Wild.png"></a>
+			</li>
+			<li>
+				<a target="_blank" href="../downloads/2016_Christmas.pdf"><img src="../img/catalogs/catalog_2016_Christmas.png"></a>
+			</li>
+		</ul>
 	</div>
+	
+	<div class="about">
+		<br>
+		<h2><strong>About us:</strong></h2>
+		<br>
+		<p>We are a wholesale importer of high-quality handcrafted felt, textile and ceramics produced by Art Group Tumar, a felt atelier based in Bishkek, Kyrgyzstan.</p>
+	</div>
+	
+	<div class="ordering">
+		<br>
+		<h2><strong>Ordering information:</strong></h2>
+		<br>
+		<p>Orders will be shipped as soon as possible.  As these products are beautifully and individually hand-crafted, however, inventories are limited and items may need to be produced to order. Consequently, not all orders can be filled immediately. Please allow up to two months for orders to be completed and shipped from Kyrgyzstan.</p> 
+		<p>Central Asia Imports will pay for all shipping and import fees from Kyrgyzstan.</p>
+		<p>Customer pays for all shipping and handling fees from Central Asia Imports to final destination in the United States.</p>
+		<p><strong>Return policy:</strong><br>Items can be returned to Central Asia Imports within 14 days of receipt.  Returned item must be in original condition, with all tags on item, and in original packaging.</p>
+		<p>Buyer will pay return shipping fees.</p>
+		<p>Upon inspection, if returned item meets above requirements, a refund will be given to buyer according to method of purchase.</p>
+	</div>
+	
+	<div class="contactInfo">
+		<br>
+		<h2><strong>Contact information:</strong></h2>
+		<br>
+		<h2>
+			<a href="mailto:tatiana@centralasiaimports.com">tatiana@centralasiaimports.com</a>
+			<br><br>
+			<a href="mailto:mary@centralasiaimports.com">mary@centralasiaimports.com</a>
+			<br>
+		</h2>
+	</div>
+	
+	<div>
+	
 	
 	<footer class="container-fluid text-center">
 	  <p>Copyright 2016 Central Asia Imports</p>

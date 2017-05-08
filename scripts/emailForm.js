@@ -1,15 +1,15 @@
 
-$(document).ready(function(){
-	$('#submit').click(sendEmail);
-	$('#close').click(clearForm);
+jQuery(document).ready(function(){
+	jQuery('#submit').click(sendEmail);
+	jQuery('#close').click(clearForm);
 });
 
 function clearForm(){
-	$('#email').val('');
-	$('#name').val('');
-	$('#message').val('');
-	$('#message-delivered').html('');
-	$('#email-invalid').html('');
+	jQuery('#email').val('');
+	jQuery('#name').val('');
+	jQuery('#message').val('');
+	jQuery('#message-delivered').html('');
+	jQuery('#email-invalid').html('');
 };
 
 function isEmail(email) {
@@ -24,7 +24,7 @@ function sendEmail (){
 		
 	if(isEmail(email)){
 	
-		$.ajax({
+		jQuery.ajax({
 			url: '/utilities/email.php',
 			type: 'POST',
 			dataType: 'JSON',
@@ -48,6 +48,6 @@ function sendEmail (){
 		});
 	}
 	else{
-		$('#email-invalid').html('Please enter a valid email address.')
+		jQuery('#email-invalid').html('Please enter a valid email address.')
 	}
 }

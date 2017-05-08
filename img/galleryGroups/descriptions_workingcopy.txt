@@ -362,6 +362,7 @@ cak-37.1_a
 Runner*100% wool felt*Handmade, solid rolled, perforation*Natural light brown*21@152*35
 cak-37.1_b
 Runner*100% wool felt*Handmade, solid rolled, perforation*Natural dark brown*21@152*35
+***new slippers start here***
 slak-133.1.1_a
 Slippers*100% wool felt, silicone sole*Handmade, solid-rolled*Natural light grey*EUR 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45*33 
 slak-133.1.1_b
@@ -446,6 +447,7 @@ slm-47.1.1_a
 Slippers*100% wool felt and 100% linen, silicone sole*Machine assembly*Natural light grey and natural grey*EUR 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45*18
 slm-47.1.1_b
 Slippers*100% wool felt and 100% linen, silicone sole*Machine assembly*Natural grey + natural dark brown*EUR 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45*18
+***toys start here***
 tak-230.1_a
 Eggs*100% wool felt*Handmade, solid-rolled*White*Diam. 4cm*2
 tak-230.1_b
@@ -726,6 +728,7 @@ ts-764.1
 Mobile Chicken*100% wool felt, hollofayber filler*Machine and hand assembly, hand embroidery*Hanging by a)thread b)ring*7.5@4@6.5*10
 ts-764.2
 Mobile Chicken*100% wool felt, hollofayber filler*Machine and hand assembly, hand embroidery*Hanging by a)thread b)ring*5.5@4@7.5*10
+***new seat pads start here***
 aks-23.1_b
 Seat pad "Branches"*100% wool felt and calico*Handmade, solid-rolled, nunofelting*Natural dark brown*40@40*27
 aks-23.1_a
@@ -754,6 +757,7 @@ aks-25.1
 Seat pad*100% wool felt and calico*Handmade, solid-rolled, nunofelting*Brown*40@40*27
 aks-25.2
 Seat pad*100% wool felt and calico*Handmade, solid-rolled, nunofelting*Brown*42@35*27
+***new pillow cases start here***
 pak-117.1_a
 Pillowcase "Haze"*100% merino wool felt and calico, overlap+cord fastening*Handmade, solid-rolled, nunofelting*Turquoise*46@46*46
 pak-117.1_b
@@ -772,6 +776,7 @@ pak-120.2
 Pillowcase*100% merino wool felt and calico on the front side, brown cotton canvas on the back side, invisible zipper*Handmade, solid-rolled, nunofelting* *46@46*33
 pak-121.1
 Pillowcase with print*100% merino wool felt and calico on the front side, black cotton canvas on the back side, invisible zipper*Handmade, solid-rolled, image print, nunofelting* *46@46*30
+***GARLANDS START HERE***
 ts-760.1
 Garlands (vertical)*100% wool felt, hollofayber filler*Machine and hand assembly, hand embroidery* *90*23
 ts-760.2
@@ -800,6 +805,7 @@ ts-761.6
 Garlands (horizontal)*100% wool felt, hollofayber filler*Machine and hand assembly, hand embroidery* *130*23
 ts-761.7
 Garlands (horizontal)*100% wool felt, hollofayber filler*Machine and hand assembly, hand embroidery* *130*23
+***NEW MITTS START HERE***
 mak-24.1_a
 Mitts (female)*100% merino wool and mull*Handmade, solid rolled felting*Grey*11@16.5*39
 mak-24.1_b
@@ -812,6 +818,7 @@ mak-25.1_b
 Mitts (male)*100% merino wool and mull, silicone print on palms, elastic wrist band*Handmade, solid rolled felting*Dark grey melange*13@14*46
 mak-25.1_c
 Mitts (male)*100% merino wool and mull, silicone print on palms, elastic wrist band*Handmade, solid rolled felting*Coffee melange*13@14*46
+***NEW PURSES/BACKPACKS START HERE***
 bak-168.1_a
 Bag (big)*100% wool felt*Handmade, solid rolled*Mustard*43@33@10*69
 bak-168.1_b
@@ -854,6 +861,7 @@ bm-222.1
 Bag with leather handles (medium)*100% wool felt, linen burlap, leather handles*Machine assembly, nunofelting* *37@10@36*48
 bm-223.1
 Bag with leather handles (small)*100% wool felt, linen burlap, leather handles*Machine assembly, nunofelting* *26@6@28*38
+***NEW SCARVES START HERE***
 scf-45.1_a
 Narrow shawl*100% merino wool, silk pattern*Handmade, nunofelting*Light-brown and white*180@35*49
 scf-45.1_b
@@ -900,6 +908,7 @@ sct-9.1_b
 Scarf "Yarns"*100% merino wool and mull*Handmade, solid rolled*Brown and beige*35@180*35
 sct-9.1_c
 Scarf "Yarns"*100% merino wool and mull*Handmade, solid rolled*Grey and green*35@180*35
+***NEW CARPETS START HERE***
 ak-114.1_a
 Carpet (big)*100% wool felt and calico*Handmade, solid rolled, nunofelting* *200@90*116
 ak-114.2_a
@@ -924,6 +933,7 @@ ak-117.1
 Carpet "Branches" (big)*100% wool felt, linen burlap on the front*Handmade, solid rolled, nunofelting* *200@90*163
 ak-117.2
 Carpet "Branches" (small)*100% wool felt, linen burlap on the front*Handmade, solid rolled, nunofelting* *150@70*138
+***NEW COVERLETS START HERE***
 pak-112.1
 Coverlet with print*Unbleached maille maille on the inner side, 100% merino wool on the middle layer, combined cotton with print on the front side*Handmade, nunofelting* *155@225*116
 pak-113.1

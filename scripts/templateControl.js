@@ -21,7 +21,7 @@ function getUrlParameter (sParam) {
 }
 
 function drawTemplate(data){
-	$.get("../templates/galleryTemplate.mustache", null, function(ajaxData) {
+	jQuery.get("../templates/galleryTemplate.mustache", null, function(ajaxData) {
 		template = ajaxData;
 		processTemplate(data);
 	});
@@ -97,9 +97,10 @@ function reviseMeasurements(data){
 function processTemplate(data) {
   
   html = Mustache.render(template, data);
-  $('.gallery').html(html);
+  jQuery('.gallery').html(html);
   
-  $('.thumbnail').click(function(){
+  jQuery('.thumbnail').click(function(){
+		
 		var title = '',
 			description = '',
 			material = '',
@@ -108,49 +109,48 @@ function processTemplate(data) {
 			size = '',
 			price = '';
 		
-		$('#photoHolder').empty();
-		$('.text-description-text').empty();
-		$('.text-material-text').empty();
-		$('.text-technique-text').empty();
-		$('.text-color-text').empty();
-		$('.text-size-text').empty();
-		$('.text-price-text').empty();
+		jQuery('#photoHolder').empty();
+		jQuery('.text-description-text').empty();
+		jQuery('.text-material-text').empty();
+		jQuery('.text-technique-text').empty();
+		jQuery('.text-color-text').empty();
+		jQuery('.text-size-text').empty();
+		jQuery('.text-price-text').empty();
 		
-		title = $(this).parent('a').attr('title');
-		description = removeSpaces($(this).parent('a').attr('description'));
-		material = removeSpaces($(this).parent('a').attr('material'));
-		technique = removeSpaces($(this).parent('a').attr('technique'));
-		color = removeSpaces($(this).parent('a').attr('color'));
-		size = reviseMeasurements(removeSpaces($(this).parent('a').attr('size')));
-		price = priceFormat(removeSpaces($(this).parent('a').attr('price')));
+		title = jQuery(this).parent('a').attr('title');
+		description = removeSpaces(jQuery(this).parent('a').attr('description'));
+		material = removeSpaces(jQuery(this).parent('a').attr('material'));
+		technique = removeSpaces(jQuery(this).parent('a').attr('technique'));
+		color = removeSpaces(jQuery(this).parent('a').attr('color'));
+		size = reviseMeasurements(removeSpaces(jQuery(this).parent('a').attr('size')));
+		price = priceFormat(removeSpaces(jQuery(this).parent('a').attr('price')));
 		
-		$('.modal-title').html('Product Number: ' + title);
-		$('#photoHolder').html($(this).parents('div').html());
-		$('.text-description-text').html(description);
-		$('.text-material-text').html(material);
-		$('.text-technique-text').html(technique);
-		$('.text-color-text').html(color);
-		$('.text-size-text').html(size);
-		$('.text-price-text').html(price);
+		jQuery('.modal-title').html('Product Number: ' + title);
+		jQuery('#photoHolder').html(jQuery(this).parents('div').html());
+		jQuery('.text-description-text').html(description);
+		jQuery('.text-material-text').html(material);
+		jQuery('.text-technique-text').html(technique);
+		jQuery('.text-color-text').html(color);
+		jQuery('.text-size-text').html(size);
+		jQuery('.text-price-text').html(price);
+			
 		
-		$('#detailsModal').modal({show:true});
+		jQuery('#detailsModal').modal({show:true});
 	});
 	
 }
 
 collectionName = getUrlParameter('collection');
-
-$.ajax({
+//changed this from $.ajax to jQuery.ajax({
+jQuery.ajax({
         url: utilities,
         type: 'POST',
         dataType: 'JSON',
         data: {collection: collectionName},
         success: function (result) {
-			//console.log(result);
 			galleryData = result;
 			drawTemplate(galleryData);
         },
         error: function (result) {
-            //console.log(result);
         }
 });

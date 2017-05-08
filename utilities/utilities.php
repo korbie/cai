@@ -5,7 +5,6 @@ TODO:
 programatically screen the .txt files to ensure that blank lines aren't considered as the file names of images to be displayed
 */
 
-
 session_start();
 
 function getPhotos($collectionName){

@@ -1,3 +1,9 @@
+mak-24.1_a
+mak-24.1_b
+mak-24.1_c
+mak-25.1_a
+mak-25.1_b
+mak-25.1_c
 mak-21.1_a
 mak-21.1_b
 mak-22.1_a

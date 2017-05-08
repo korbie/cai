@@ -1,9 +1,9 @@
-<h1>Product Gallery</h1>
+<h1><br>Product Gallery</h1>
 
 {{#rows}}
 	<div class="row">
 	{{#images}}
-		<div class="col-lg-3 col-sm-4 col-xs-6"><a title={{itemNumber}} description={{itemDescription}} material={{itemMaterial}} technique={{itemTechnique}} color={{itemColor}} size={{itemSize}} price={{itemPrice}} href="#"><img class="thumbnail img-responsive" src={{fileName}}><span class="description">{{description}}</span></a></div>
+		<div class="col-lg-3 col-sm-4 col-xs-6"><a title={{itemNumber}} description={{itemDescription}} material={{itemMaterial}} technique={{itemTechnique}} color={{itemColor}} size={{itemSize}} price={{itemPrice}} href="#"><img class="thumbnail img-responsive" id={{itemNumber}} src={{fileName}}><span class="description">{{description}}</span></a></div>
 	{{/images}}
 	</div>
 {{/rows}}
